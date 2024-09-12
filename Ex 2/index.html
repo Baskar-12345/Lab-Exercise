@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Ticket Booking</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(to right, #74ebd5, #acb6e5);
+            color: #333;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .container {
+            text-align: center;
+            background: rgba(255, 255, 255, 0.9);
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+
+        h1 {
+            color: #2c3e50;
+            margin-bottom: 20px;
+            font-size: 2.5em;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        img {
+            border: 3px solid #2c3e50;
+            border-radius: 10px;
+            transition: transform 0.3s, box-shadow 0.3s;
+            cursor: pointer;
+            width: 80%;
+            max-width: 500px;
+        }
+
+        img:hover {
+            transform: scale(1.05);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+        }
+
+        p {
+            font-size: 1.2em;
+            color: #555;
+            margin-top: 20px;
+        }
+
+        a {
+            text-decoration: none;
+            color: #2980b9;
+            transition: color 0.3s;
+        }
+
+        a:hover {
+            color: #d35400;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Online Ticket Booking</h1>
+        <img src="https://5.imimg.com/data5/PA/HH/MY-34433005/train-or-plane-tickets-500x500.jpg" alt="Workspace" usemap="#India">
+        <map name="India">
+            <area shape="rect" coords="31,98,160,170" href="train.html" alt="Train">
+            <area shape="poly" coords="354,122,420,102,457,107,468,164,420,170,354,150" href="bus.html" alt="Bus">
+            <area shape="rect" coords="166,20,335,63" href="flight.html" alt="Flight">
+        </map>
+        <p>This page gives you details of the ticket price when you click on the medium of transport.</p>
+    </div>
+</body>
+</html>
